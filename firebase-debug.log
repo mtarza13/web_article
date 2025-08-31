@@ -1,0 +1,109 @@
+[debug] [2025-08-31T20:57:56.889Z] ----------------------------------------------------------------------
+[debug] [2025-08-31T20:57:56.890Z] Command:       /home/mtarza/.nvm/versions/node/v22.19.0/bin/node /home/mtarza/.nvm/versions/node/v22.19.0/bin/firebase init
+[debug] [2025-08-31T20:57:56.891Z] CLI Version:   14.15.1
+[debug] [2025-08-31T20:57:56.891Z] Platform:      linux
+[debug] [2025-08-31T20:57:56.891Z] Node Version:  v22.19.0
+[debug] [2025-08-31T20:57:56.891Z] Time:          Sun Aug 31 2025 21:57:56 GMT+0100 (GMT+01:00)
+[debug] [2025-08-31T20:57:56.891Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-08-31T20:57:56.893Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-08-31T20:57:56.893Z] > authorizing via signed-in user (mohamedamintarza@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/mtarza/lol
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2025-08-31T20:58:23.964Z] Checked if tokens are valid: true, expires at: 1756677441199
+[debug] [2025-08-31T20:58:23.964Z] Checked if tokens are valid: true, expires at: 1756677441199
+[debug] [2025-08-31T20:58:23.965Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1/projects:checkProjectId [none]
+[debug] [2025-08-31T20:58:23.965Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"proposedId":"324243"}
+[debug] [2025-08-31T20:58:24.315Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1/projects:checkProjectId 200
+[debug] [2025-08-31T20:58:24.315Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"projectIdStatus":"PROJECT_ID_NOT_VALID","suggestedProjectId":"project-322330921961580802"}
+[debug] [2025-08-31T20:58:24.460Z] Checked if tokens are valid: true, expires at: 1756677441199
+[debug] [2025-08-31T20:58:24.460Z] Checked if tokens are valid: true, expires at: 1756677441199
+[debug] [2025-08-31T20:58:24.460Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1/projects:checkProjectId [none]
+[debug] [2025-08-31T20:58:24.460Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"proposedId":"324243"}
+[debug] [2025-08-31T20:58:24.682Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1/projects:checkProjectId 200
+[debug] [2025-08-31T20:58:24.682Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"projectIdStatus":"PROJECT_ID_NOT_VALID","suggestedProjectId":"project-4543188702447450673"}
+[debug] [2025-08-31T20:58:29.288Z] ----------------------------------------------------------------------
+[debug] [2025-08-31T20:58:29.289Z] Command:       /home/mtarza/.nvm/versions/node/v22.19.0/bin/node /home/mtarza/.nvm/versions/node/v22.19.0/bin/firebase init
+[debug] [2025-08-31T20:58:29.289Z] CLI Version:   14.15.1
+[debug] [2025-08-31T20:58:29.289Z] Platform:      linux
+[debug] [2025-08-31T20:58:29.289Z] Node Version:  v22.19.0
+[debug] [2025-08-31T20:58:29.289Z] Time:          Sun Aug 31 2025 21:58:29 GMT+0100 (GMT+01:00)
+[debug] [2025-08-31T20:58:29.289Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-08-31T20:58:29.291Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-08-31T20:58:29.291Z] > authorizing via signed-in user (mohamedamintarza@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/mtarza/lol
+
+[debug] [2025-08-31T20:58:32.780Z] ExitPromptError: User force closed the prompt with SIGINT
+    at Interface.sigint (/home/mtarza/.nvm/versions/node/v22.19.0/lib/node_modules/firebase-tools/node_modules/@inquirer/core/dist/commonjs/lib/create-prompt.js:101:37)
+    at Interface.emit (node:events:519:28)
+    at Interface.emit (node:domain:489:12)
+    at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1132:18)
+    at ReadStream.onkeypress (node:internal/readline/interface:271:20)
+    at ReadStream.emit (node:events:531:35)
+    at ReadStream.emit (node:domain:489:12)
+    at emitKeys (node:internal/readline/utils:370:14)
+    at emitKeys.next (<anonymous>)
+    at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-08-31T20:58:34.395Z] ----------------------------------------------------------------------
+[debug] [2025-08-31T20:58:34.396Z] Command:       /home/mtarza/.nvm/versions/node/v22.19.0/bin/node /home/mtarza/.nvm/versions/node/v22.19.0/bin/firebase init
+[debug] [2025-08-31T20:58:34.397Z] CLI Version:   14.15.1
+[debug] [2025-08-31T20:58:34.397Z] Platform:      linux
+[debug] [2025-08-31T20:58:34.397Z] Node Version:  v22.19.0
+[debug] [2025-08-31T20:58:34.397Z] Time:          Sun Aug 31 2025 21:58:34 GMT+0100 (GMT+01:00)
+[debug] [2025-08-31T20:58:34.397Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-08-31T20:58:34.399Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-08-31T20:58:34.399Z] > authorizing via signed-in user (mohamedamintarza@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/mtarza/lol
+
+[debug] [2025-08-31T20:59:37.964Z] ExitPromptError: User force closed the prompt with SIGINT
+    at Interface.sigint (/home/mtarza/.nvm/versions/node/v22.19.0/lib/node_modules/firebase-tools/node_modules/@inquirer/core/dist/commonjs/lib/create-prompt.js:101:37)
+    at Interface.emit (node:events:519:28)
+    at Interface.emit (node:domain:489:12)
+    at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1132:18)
+    at ReadStream.onkeypress (node:internal/readline/interface:271:20)
+    at ReadStream.emit (node:events:531:35)
+    at ReadStream.emit (node:domain:489:12)
+    at emitKeys (node:internal/readline/utils:370:14)
+    at emitKeys.next (<anonymous>)
+    at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+[error] 
+[error] Error: An unexpected error has occurred.
